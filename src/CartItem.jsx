@@ -16,8 +16,7 @@ const CartItem = ({ onContinueShopping }) => {
       .toFixed(2);
   };
 
-  const handleContinueShopping = e => {
-    e.preventDefault();
+  const handleContinueShopping = () => {
     onContinueShopping();
   };
 
@@ -83,12 +82,6 @@ const CartItem = ({ onContinueShopping }) => {
             </div>
           </div>
         ))}
-      </div>
-      <div
-        style={{ marginTop: '20px', color: 'black' }}
-        className='total_cart_amount'
-      >
-        Total: ${calculateTotalAmount()}
       </div>
       <div className='continue_shopping_btn'>
         <button className='get-started-button' onClick={handleContinueShopping}>
