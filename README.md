@@ -43,7 +43,7 @@ Die Anwendung besteht aus folgenden Hauptkomponenten:
 ## 📂 Installation & Lokaler Start
 
 ```bash
-git clone https://github.com/DEIN_GITHUB_NAME/e-plantShopping.git
+git clone https://github.com/JBiederstedt/e-plantShopping.git
 cd e-plantShopping
 npm install
 npm run preview
