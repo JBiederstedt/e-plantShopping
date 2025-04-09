@@ -42,7 +42,9 @@ The application consists of the following main components:
 
 ## 📂 Installation & Local Development
 
+```bash
 git clone https://github.com/JBiederstedt/e-plantShopping.git
 cd e-plantShopping
 npm install
 npm run preview
+```
